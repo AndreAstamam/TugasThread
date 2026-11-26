@@ -1,0 +1,7 @@
+CREATE DATABASE campus_db;
+USE campus_db;
+CREATE TABLE students (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  nim VARCHAR(20) NOT NULL,
+  name VARCHAR(100) NOT NULL
+);
